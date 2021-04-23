@@ -1,0 +1,22 @@
+{
+  "name": "portfolio-project",
+  "version": "1.0.0",
+  "description": "calming website",
+  "main": "index.js",
+  "scripts": {
+    "lite": "lite-server",
+    "scss": "node-sass -o css/ css/",
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Trevor Scott",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  }
+}
